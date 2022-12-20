@@ -1,4 +1,4 @@
-import { Card, CardContent, Container, Divider, Tab, Tabs } from "@mui/material";
+import { Box, Card, CardContent, Container, Divider, Tab, Tabs } from "@mui/material";
 import React, { Component } from "react";
 import axios from 'axios';
 import { BarChart } from "./BarChart";
@@ -53,8 +53,8 @@ class SalesChart extends Component {
                             <Tab label="Sales" />
                             <Tab label="Visits" />
                         </Tabs>
-                        <Divider />
-                        <BarChart details={data}/>
+                        <Divider sx={{mb: '30px'}} />
+                            <BarChart details={data} />
                     </CardContent>
                 </Card>
             </Container>

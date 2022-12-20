@@ -11,6 +11,7 @@ import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import React from "react";
 import TotalItems from "../TotalItems/TotalItems";
 import SalesChart from "../Sales/SalesChart";
+import { BarChartData } from "../Sales/BarChart";
 
 const Dashboard = () => {
     const drawerWidth = 240;

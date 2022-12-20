@@ -5,6 +5,7 @@ import MensClothing from "../components/Caterogy/MensClothing";
 import WomenClothing from "../components/Caterogy/WomenClothing";
 import Electronics from "../components/Caterogy/Electronics";
 import Jewelery from "../components/Caterogy/Jewelery";
+import Form from "../components/Form/Form";
 
 function Router() {
 
@@ -16,6 +17,7 @@ function Router() {
                 <Route path='/women-clothing' component={WomenClothing} />
                 <Route path='/electronics' component={Electronics} />
                 <Route path='/jewelery' component={Jewelery} />
+                <Route path='/form' component={Form} />
             </Switch>
         </BrowserRouter>
     )
